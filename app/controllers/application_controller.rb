@@ -16,6 +16,7 @@ class ApplicationController < ActionController::Base
     if not session[:user_id]
       logger.info 'session timeout OR no cookies in request'
       redirect_to :controller => :welcome, :action => :index
+      #redirect_to :controller => :tables, :action => :index
     end
     #if not session[:cas_user]
     #  logger.info "session timeout OR no cookies in request"
