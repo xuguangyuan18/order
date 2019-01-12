@@ -19,6 +19,7 @@ WirelessOrder::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
+  #root 'tables#index'
 
   resources :welcome
   resources :authorities do
