@@ -7,10 +7,13 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-users = [{:name => 'admin', :account => 'admin', :password => 'password',:password_confirmation => "password"},
-      	  {:name => 'test', :account => 'test', :password => 'password',:password_confirmation => "password"},
+
+users = [{:name => 'admin', :account => 'admin', :password => 'password',:password_confirmation => "password",:role => "0"},
+      	  {:name => 'test', :account => 'test1', :password => 'password',:password_confirmation => "password",:role => "1"},
+      	  {:name => 'test', :account => 'test2', :password => 'password',:password_confirmation => "password",:role => "2"},
   	 ]
 
 users.each do |user|
   User.create!(user)
 end
+
