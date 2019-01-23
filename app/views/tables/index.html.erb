@@ -35,11 +35,11 @@
 <div class="title-main">
   <div class="title-left">
 
-    <% if session[:table_type] == 1 %>
+    <% if session[:table_type] == 0 %>
         空闲
-    <% elsif session[:table_type]== 2 %>
+    <% elsif session[:table_type]== 1 %>
         占用
-    <% elsif session[:table_type] == 3 %>
+    <% elsif session[:table_type] == 2 %>
         预定
     <% else %>
         全部
