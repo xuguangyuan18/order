@@ -1,5 +1,7 @@
 source 'https://gems.ruby-china.com'
 
+ruby '2.4.4'
+
 gem 'bootstrap-sass', '~> 3.3.7'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.11'
@@ -18,7 +20,7 @@ gem 'axlsx', '2.1.0.pre'
 gem 'axlsx_rails'
 gem 'rails-i18n'
 
-gem 'sqlite3'
+# gem 'sqlite3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.2'
