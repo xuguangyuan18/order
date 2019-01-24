@@ -20,7 +20,7 @@ gem 'axlsx', '2.1.0.pre'
 gem 'axlsx_rails'
 gem 'rails-i18n'
 
-# gem 'sqlite3'
+ gem 'sqlite3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.2'
